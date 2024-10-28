@@ -1,4 +1,4 @@
-import{ae as e,af as r}from"./index-nOYKdmzc.js";import{u as s}from"./index-DCMeGj2N.js";import"./chunk-NUUEMKO5-p5ec04Bn.js";/* empty css             */import"./iframe-DaZwrw5i.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function o(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",p:"p",pre:"pre",strong:"strong",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Docs/Components/Pages vs Components"}),`
+import{ae as e,af as r}from"./index-DFQJmrz7.js";import{u as s}from"./index-DfRjW0OV.js";import"./chunk-NUUEMKO5-CLy9nqUZ.js";/* empty css             */import"./iframe-BI3XuDMF.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function o(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",p:"p",pre:"pre",strong:"strong",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Docs/Components/Pages vs Components"}),`
 `,e.jsx(n.h1,{id:"pages-vs-components",children:"Pages vs Components"}),`
 `,e.jsxs(n.p,{children:[`Components are the building blocks of the Vue app. With the upgrade to Vue 3, we
 are now able to take advantage of the more declarative syntax of Vue 3's
@@ -32,11 +32,8 @@ to the Vue page that holds it.`}),`
 with how child components are rendered. It simply passes props down to the child,
 allowing the child to render itself accordingly. This component also listens for
 requests from the child component to manipulate data, and handle routing.`}),`
-`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-html",children:`<template>
-  <BaseCard1
-    :project="project"
-  >
-  ></BaseCard1>
+`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-xhtml",children:`<template>
+  <BaseCard1 :project="project"></BaseCard1>
 </template>
 
 <script>
@@ -44,41 +41,42 @@ requests from the child component to manipulate data, and handle routing.`}),`
   export default {
     // alot of code is assumed and excluded to simplify this example
     setup(props) {
-      const emitter = inject('emitter');   // Inject \`emitter\`
-      emitter.on('favorite-project', (projectId) => {   // *Listen* for event
+      const emitter = inject('emitter') // Inject \`emitter\`
+      emitter.on('favorite-project', (projectId) => {
+        // *Listen* for event
         favoriteProject(projectId)
-      });
+      })
 
       const project = ref({
         id: 1,
         title: 'Example Project',
-        favorite: false
+        favorite: false,
       })
 
       const favoriteProject = async (projectId) => {
         await fetch(save_to_favorites_api_endpoint, projectId)
         project.value = {
           ...project.value,
-          favorite: true
+          favorite: true,
         }
       }
 
       return {
         favoriteProject,
-        project
+        project,
       }
-    }
+    },
   }
 <\/script>
-
 `})}),`
 `,e.jsx(n.p,{children:e.jsx(n.code,{children:"_Components/BaseCard1/BaseCard1.vue"})}),`
 `,e.jsx(n.p,{children:`This component is "dumb" and presentational only. It takes in props from the parent, and
 sends the click request up to the parent to handle.`}),`
 `,e.jsx(n.p,{children:`It is ok for presentational components to have state, but that state is specific only to that
 component and any of its own child components that receive the state as props.`}),`
-`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-html",children:`<template>
-  // use emitter to broadcast requests to any components (parent, child, sibling, unrelated)
+`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-xhtml",children:`<template>
+  // use emitter to broadcast requests to any components (parent, child,
+  sibling, unrelated)
   <div @click="$emitter.emit('favorite-project', project.id)">
     {{ project.title }}
   </div>
@@ -89,10 +87,9 @@ component and any of its own child components that receive the state as props.`}
     // alot of code is assumed and excluded to simplify this example
     props: {
       project: {
-        type: Object
-      }
-    }
+        type: Object,
+      },
+    },
   }
 <\/script>
-
 `})})]})}function x(t={}){const{wrapper:n}={...s(),...t.components};return n?e.jsx(n,{...t,children:e.jsx(o,{...t})}):o(t)}export{x as default};

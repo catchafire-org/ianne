@@ -1,4 +1,4 @@
-import{ae as e,af as a}from"./index-nOYKdmzc.js";import{u as t}from"./index-DCMeGj2N.js";import"./chunk-NUUEMKO5-p5ec04Bn.js";/* empty css             */import"./iframe-DaZwrw5i.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function s(o){const n={code:"code",h1:"h1",p:"p",...t(),...o.components};return e.jsxs(e.Fragment,{children:[e.jsx(a,{title:"Docs/Design Tokens"}),`
+import{ae as e,af as a}from"./index-DFQJmrz7.js";import{u as t}from"./index-DfRjW0OV.js";import"./chunk-NUUEMKO5-CLy9nqUZ.js";/* empty css             */import"./iframe-BI3XuDMF.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function s(o){const n={code:"code",h1:"h1",p:"p",...t(),...o.components};return e.jsxs(e.Fragment,{children:[e.jsx(a,{title:"Docs/Design Tokens"}),`
 `,e.jsx(n.h1,{id:"design-tokens",children:"Design Tokens"}),`
 `,e.jsx("br",{}),`
 `,e.jsx(n.p,{children:`As modules are the building blocks of an app, and pages are building blocks of a module,

@@ -1,4 +1,4 @@
-import{ae as e,af as o}from"./index-nOYKdmzc.js";import{u as s}from"./index-DCMeGj2N.js";import"./chunk-NUUEMKO5-p5ec04Bn.js";/* empty css             */import"./iframe-DaZwrw5i.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function r(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",p:"p",pre:"pre",strong:"strong",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(o,{title:"Docs/Components/Controlled vs Uncontrolled"}),`
+import{ae as e,af as o}from"./index-DFQJmrz7.js";import{u as s}from"./index-DfRjW0OV.js";import"./chunk-NUUEMKO5-CLy9nqUZ.js";/* empty css             */import"./iframe-BI3XuDMF.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function r(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",p:"p",pre:"pre",strong:"strong",...s(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(o,{title:"Docs/Components/Controlled vs Uncontrolled"}),`
 `,e.jsx(n.h1,{id:"controlled-vs-uncontrolled",children:"Controlled vs Uncontrolled"}),`
 `,e.jsxs(n.p,{children:[e.jsx(n.strong,{children:"Controlled components"}),` are components that are within the Vue context.
 This means that when the user interacts with these components (click, hover, etc),
@@ -10,10 +10,13 @@ Take a look at how a controlled and uncontrolled component will behave.`}),`
 `,e.jsx("br",{}),`
 `,e.jsx(n.h2,{id:"controlled-example",children:"Controlled example"}),`
 `,e.jsx(n.p,{children:"Here, the DOM gets rerendered on each keypress."}),`
-`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-html",children:`<template>
+`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-xhtml",children:`<template>
   <div>
     <!-- Reactivity will run on every keypress -->
-    <input @keypress="search()" v-model="searchInput" />
+    <input
+      @keypress="search()"
+      v-model="searchInput"
+    />
   </div>
 </template>
 
@@ -28,19 +31,21 @@ Take a look at how a controlled and uncontrolled component will behave.`}),`
       }
 
       return {
-        search
+        search,
       }
-    }
+    },
   }
 <\/script>
-
 `})}),`
 `,e.jsx(n.h2,{id:"uncontrolled-example",children:"Uncontrolled example"}),`
 `,e.jsx(n.p,{children:"Here, the DOM will never get updated."}),`
-`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-html",children:`<template>
+`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-xhtml",children:`<template>
   <div>
     <!-- Reactivity will NOT be run on every keypress -->
-    <input @keypress="search()" ref="searchInput" />
+    <input
+      @keypress="search()"
+      ref="searchInput"
+    />
   </div>
 </template>
 
@@ -54,19 +59,20 @@ Take a look at how a controlled and uncontrolled component will behave.`}),`
         console.log(searchInput)
       }
 
-      watchEffect(() => {
-        // here we get notified that searchInput has updated, but Reactivity is not started.
-        console.log(searchInput.value)
-      },
-      {
-        flush: 'post'
-      })
+      watchEffect(
+        () => {
+          // here we get notified that searchInput has updated, but Reactivity is not started.
+          console.log(searchInput.value)
+        },
+        {
+          flush: 'post',
+        }
+      )
 
       return {
-        search
+        search,
       }
-    }
+    },
   }
 <\/script>
-
 `})})]})}function f(t={}){const{wrapper:n}={...s(),...t.components};return n?e.jsx(n,{...t,children:e.jsx(r,{...t})}):r(t)}export{f as default};

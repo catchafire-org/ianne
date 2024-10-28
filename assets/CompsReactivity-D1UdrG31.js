@@ -1,4 +1,4 @@
-import{ae as e,af as i}from"./index-nOYKdmzc.js";import{u as a}from"./index-DCMeGj2N.js";import"./chunk-NUUEMKO5-p5ec04Bn.js";/* empty css             */import"./iframe-DaZwrw5i.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function r(n){const t={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",...a(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Docs/Components/Reactivity"}),`
+import{ae as e,af as i}from"./index-DFQJmrz7.js";import{u as a}from"./index-DfRjW0OV.js";import"./chunk-NUUEMKO5-CLy9nqUZ.js";/* empty css             */import"./iframe-BI3XuDMF.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function r(n){const t={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",...a(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Docs/Components/Reactivity"}),`
 `,e.jsx(t.h1,{id:"reactivity",children:"Reactivity"}),`
 `,e.jsxs(t.p,{children:["Vue updates the DOM through a process called ",e.jsx(t.a,{href:"https://v3.vuejs.org/guide/reactivity.html",rel:"nofollow",children:e.jsx(t.strong,{children:"Reactivity"})}),":"]}),`
 `,e.jsxs(t.ol,{children:[`
@@ -11,7 +11,7 @@ rerender parts of the real DOM to match the virtual DOM.`}),`
 `,e.jsx(t.p,{children:`This is Reactivity in Vue. It is important to know about Reactivity because unnecessary
 rerendering or continuously rerendering can have an affect on browser performance.`}),`
 `,e.jsx(t.h2,{id:"code-example",children:"Code example"}),`
-`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-html",children:`<template>
+`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-xhtml",children:`<template>
   <div>
     <button @click="changeStatus()">Run</button>
     {status}
@@ -29,10 +29,9 @@ rerendering or continuously rerendering can have an affect on browser performanc
       }
 
       return {
-        changeStatus
+        changeStatus,
       }
-    }
+    },
   }
 <\/script>
-
 `})})]})}function f(n={}){const{wrapper:t}={...a(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(r,{...n})}):r(n)}export{f as default};

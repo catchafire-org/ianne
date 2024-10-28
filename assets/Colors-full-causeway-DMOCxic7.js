@@ -1,4 +1,4 @@
-import{ae as e,af as i,ah as a,ai as s}from"./index-nOYKdmzc.js";import{u as o}from"./index-DCMeGj2N.js";import"./chunk-NUUEMKO5-p5ec04Bn.js";import"./iframe-DaZwrw5i.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function c(r){const t={code:"code",h1:"h1",h2:"h2",p:"p",pre:"pre",...o(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Tokens/Colors"}),`
+import{ae as e,af as i,ah as a,ai as s}from"./index-DFQJmrz7.js";import{u as o}from"./index-DfRjW0OV.js";import"./chunk-NUUEMKO5-CLy9nqUZ.js";import"./iframe-BI3XuDMF.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function c(r){const t={code:"code",h1:"h1",h2:"h2",p:"p",pre:"pre",...o(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Tokens/Colors"}),`
 `,e.jsx(t.h1,{id:"colors",children:"Colors"}),`
 `,e.jsx(t.h2,{id:"primitives",children:"Primitives"}),`
 `,e.jsxs(a,{children:[e.jsx(s,{title:"Brand White",subtitle:"",colors:{800:"#9C9778",700:"#B6B191",600:"#D0CCB0",500:"#E0DCC6",400:"#ECE9D7",300:"#F4F2E6",200:"#F8F6EE",100:"#FAF9F3",50:"#FBFAF7"}}),e.jsx(s,{title:"Brand Black",subtitle:"",colors:{800:"#292525",700:"#514949",600:"#706565",500:"#908484",400:"#AEA6A6",300:"#C8C2C2",200:"#DFD9D9",100:"#EFECEC",50:"#F8F7F7"}}),e.jsx(s,{title:"Brand Yellow",subtitle:"",colors:{800:"#A7AA18",700:"#BEC11B",600:"#D4D81F",500:"#E6EA23",400:"#F0F26A",300:"#F4F68B",200:"#F8FAAC",100:"#F9FAC8",50:"#FCFDDE"}}),e.jsx(s,{title:"Brand Orange",subtitle:"",colors:{800:"#B76709",700:"#C7730F",600:"#DD8721",500:"#ED9E40",400:"#F8B15E",300:"#FFC47E",200:"#FFD4A0",100:"#FFE4C3",50:"#FFF1DF"}}),e.jsx(s,{title:"Brand Red",subtitle:"",colors:{800:"#A3170E",700:"#B61B10",600:"#D23A2F",500:"#EC5F55",400:"#F87E76",300:"#ff9E98",200:"#FFBAB6",100:"#FFD0D0",50:"#FFE4E4"}}),e.jsx(s,{title:"Brand Pink",subtitle:"",colors:{800:"#AF4799",700:"#C35BAD",600:"#D76FC1",500:"#EB83D5",400:"#F69FE3",300:"#FEBAEF",200:"#FFCFF4",100:"#FFE2F8",50:"#FEEDFA"}}),e.jsx(s,{title:"Brand Blue",subtitle:"",colors:{800:"#005C9E",700:"#0168B2",600:"#007CC9",500:"#1F96E0",400:"#56B1F3",300:"#75C5FE",200:"#9BD5FF",100:"#C1E5FF",50:"#DCF0FF"}}),e.jsx(s,{title:"Brand Green",subtitle:"",colors:{800:"#136500",700:"#1D6F00",600:"#3B8D16",500:"#59AB34",400:"#77C952",300:"#94E270",200:"#AAF488",100:"#C4FCAB",50:"#DCFDD1"}})]}),`
@@ -56,11 +56,11 @@ in the code, the `,e.jsx(t.code,{children:"#"})," is not used, and the ",e.jsx(t
 `})}),`
 `,e.jsx(t.h2,{id:"colors-as-class-names",children:"Colors as class names"}),`
 `,e.jsx(t.p,{children:"Font color example"}),`
-`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-html",children:`<div class="ids--color-type-base-text-on-alert">Test</div>
+`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-xhtml",children:`<div class="ids--color-type-base-text-on-alert">Test</div>
 `})}),`
 `,e.jsx(t.p,{children:"Background color example"}),`
-`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-html",children:`<div class="ids--color-bg-base-background-hc">Test</div>
+`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-xhtml",children:`<div class="ids--color-bg-base-background-hc">Test</div>
 `})}),`
 `,e.jsx(t.p,{children:"Border color example"}),`
-`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-html",children:`<div class="ids--color-border-base-decorative-surface-2">Test</div>
+`,e.jsx(t.pre,{children:e.jsx(t.code,{className:"language-xhtml",children:`<div class="ids--color-border-base-decorative-surface-2">Test</div>
 `})})]})}function k(r={}){const{wrapper:t}={...o(),...r.components};return t?e.jsx(t,{...r,children:e.jsx(c,{...r})}):c(r)}export{k as default};

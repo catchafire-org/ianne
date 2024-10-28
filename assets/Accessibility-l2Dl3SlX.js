@@ -1,4 +1,4 @@
-import{ae as e,af as o}from"./index-nOYKdmzc.js";import{u as r}from"./index-DCMeGj2N.js";/* empty css             */import"./iframe-DaZwrw5i.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function i(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",h4:"h4",h5:"h5",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(o,{title:"Docs/Accessibility"}),`
+import{ae as e,af as o}from"./index-DFQJmrz7.js";import{u as r}from"./index-DfRjW0OV.js";/* empty css             */import"./iframe-BI3XuDMF.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-D-8MO0q_.js";import"./index-DLgkWgLR.js";import"./index-DrFu-skq.js";function i(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",h4:"h4",h5:"h5",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(o,{title:"Docs/Accessibility"}),`
 `,e.jsx(n.h1,{id:"accessibility",children:"Accessibility"}),`
 `,e.jsx(n.p,{children:"https://www.notion.so/catchafire/UX-Accessibility-Annotations-b756eb80715849e38b95384ebbe67c83"}),`
 `,e.jsx(n.h2,{id:"key-areas",children:"Key Areas"}),`
@@ -93,26 +93,51 @@ Screen readers handle links slightly differently than they do buttons. All links
 `,e.jsx(n.a,{href:"https://www.w3.org/WAI/tutorials/forms/labels/",rel:"nofollow",children:e.jsx(n.strong,{children:"Read More"})})]}),`
 `,e.jsx(n.h4,{id:"annotation-examples-2",children:"Annotation examples"}),`
 `,e.jsx(n.h5,{id:"aria-role-input",children:"Aria role: input"}),`
-`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-html",children:`<input type="text" name="search" aria-label="Search">
+`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-xhtml",children:`<input
+  type="text"
+  name="search"
+  aria-label="Search"
+/>
 
 <label for="firstname">First name:</label>
-<input type="text" name="firstname" id="firstname">
+<input
+  type="text"
+  name="firstname"
+  id="firstname"
+/>
 
-<input type="text" name="search" aria-labelledby="searchbutton">
-<button id="searchbutton" type="submit">Search</button>
+<input
+  type="text"
+  name="search"
+  aria-labelledby="searchbutton"
+/>
+<button
+  id="searchbutton"
+  type="submit"
+>
+  Search
+</button>
 `})}),`
 `,e.jsx(n.h5,{id:"aria-role-checkbox",children:"Aria role: checkbox"}),`
 `,e.jsx(n.p,{children:e.jsx(n.code,{children:'<input type="checkbox" name="occupations" aria-label="Teacher">'})}),`
 `,e.jsx("br",{}),`
 `,e.jsx(n.h5,{id:"grouping-related-checkboxes-screen-readers-will-make-a-distinction-when-reading-back-the-content-of-the-page",children:"Grouping related checkboxes (screen readers will make a distinction when reading back the content of the page)"}),`
-`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-html",children:`<fieldset>
+`,e.jsx(n.pre,{children:e.jsx(n.code,{className:"language-xhtml",children:`<fieldset>
   <legend>I want to receive</legend>
   <div>
-    <input type="checkbox" name="newsletter" id="check_1">
+    <input
+      type="checkbox"
+      name="newsletter"
+      id="check_1"
+    />
     <label for="check_1">The weekly newsletter</label>
   </div>
   <div>
-    <input type="checkbox" name="newsletter" id="check_2">
+    <input
+      type="checkbox"
+      name="newsletter"
+      id="check_2"
+    />
     <label for="check_2">Offers from the company</label>
   </div>
 </fieldset>
